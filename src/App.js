@@ -22,12 +22,7 @@ const App = () => {
             <div className='container'>
                 <h1 className='mt-3'>Company's Budget Allocation</h1>
                  <div className='row mt-3'>
-                        {
-                            // /* Add Currency component here */
-                            <div className='col-sm'>
-                                <Currency />
-                            </div>
-                        }
+                       
                    
                         {
                             /* Add Budget component here */
@@ -47,6 +42,12 @@ const App = () => {
                         {
                             <div className='col-sm'>
                                 <ExpenseTotal/>
+                            </div>
+                        }  
+                         {
+                            // /* Add Currency component here */
+                            <div className='col-sm'>
+                                <Currency />
                             </div>
                         }        
                        
@@ -69,7 +70,8 @@ const App = () => {
                             <div className='col-sm'>
                                 <AllocationForm />
                             </div>
-                        }        
+                        } 
+                             
 
                 </div>
             </div>

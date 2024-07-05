@@ -14,7 +14,7 @@ const Currency = () => {
         
     };
     return (
-        <div className='row mt-3'>
+        <div className='alert alert-success'>
             <label htmlFor="currency">Currency: </label>
             <select id="currency" value={currency} onChange={handleCurrencyChange} style={{ marginLeft: '5px' }}>
                 <option value="£">£ Pound</option>
